@@ -5,3 +5,7 @@
    - [微信](https://cloud.tencent.com/developer/article/1848945)
    - https://zhuanlan.zhihu.com/p/119293585
    - [xcrash](https://juejin.cn/post/6991356414069309477)
+
+
+# watchdog
+https://blog.csdn.net/xiaosayidao/article/details/75453196
