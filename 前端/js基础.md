@@ -20,3 +20,13 @@ cookie是服务端生成的，浏览器存储在文件里,是字符文本，有�
 
 # js类型
 string，number，bigint，boolean，null，undefined，symbol(es2016新增)
+
+# bind,call,apply
+- apply接受两个参数，第一个参数是this的指向，第二个参数是函数接受的参数。改变this指向后原函数会立即执行，且此方法只是临时改变this指向一次
+- call方法的第一个参数也是this的指向，后面传入的是一个参数列表.跟apply一样，改变this指向后原函数会立即执行，且此方法只是临时改变this指向一次
+- bind方法和call很相似，第一参数也是this的指向，后面传入的也是一个参数列表(但是这个参数列表可以分多次传入).改变this指向后不会立即执行，而是返回一个永久改变this指向的函数
+
+# Proxy
+https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Proxy
+
+vue3里用它代替Object.defineProperty
